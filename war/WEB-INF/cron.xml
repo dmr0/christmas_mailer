@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+	<cron>
+		<url>/cron_daily_send_mail.html</url>
+		<description>every day at 6 o'clock</description>
+		<schedule>every day 06:00</schedule>
+		<timezone>Etc/UTC</timezone>
+	</cron>
+</cronentries>

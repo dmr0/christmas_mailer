@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
   <application></application>
-  <version>1</version>
+  <version></version>
 
   <!--
     Allows App Engine to send multiple requests to one instance in parallel:
@@ -11,6 +11,7 @@
   <!-- Configure java.util.logging -->
   <system-properties>
     <property name="java.util.logging.config.file" value="WEB-INF/logging.properties"/>
+    <property name="mail.mime.charset" value="UTF-8"/>
   </system-properties>
 
   <!--
